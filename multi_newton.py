@@ -20,7 +20,7 @@ def hess(f, x):
 def multivar_newton(f, x0, tolerance = 1e-3):
     """ Multivariate Newton's method to find the local minimum of a function
     f: the multivariate function
-    x: the array of points
+    x0: initial guess
     tolerance: convergence tolerance (default = 1e-3)
     """
     x = np.asarray(x0, dtype = float)
